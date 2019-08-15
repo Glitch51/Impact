@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="unitTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-08-15T04:43:33" hostname="DESKTOP-47FLDSV" time="0.113">
+  <properties/>
+  <testcase name="testEmpty()" classname="unitTests" time="0.096"/>
+  <testcase name="testNull()" classname="unitTests" time="0.001"/>
+  <testcase name="testCommaCheck()" classname="unitTests" time="0.006"/>
+  <testcase name="testIllegalChars()" classname="unitTests" time="0.001"/>
+  <testcase name="testDigitCheck()" classname="unitTests" time="0.001"/>
+  <testcase name="testSpaces()" classname="unitTests" time="0.002"/>
+  <system-out><![CDATA[___Error: String is Empty___
+___Error: String is Null___
+___Error: String is not properly comma separated___
+___Error: String contains illegal characters___
+___Error: String contains illegal characters___
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
